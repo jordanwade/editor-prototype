@@ -47,10 +47,27 @@ const flash = () => {
 //   Toggle Theme
 // -------------------------------------
 
+const storageKey = 'editor:lighttheme';
+let themeLight = false;
+
 const toggleTheme = e => {
   e.preventDefault();
   theme.classList.toggle('is-light');
+  themeLight = !themeLight;
+  if (themeLight === false) {
+    localStorage.setItem(storageKey, themeLight);
+  } else {
+    localStorage.setItem(storageKey, themeLight);
+  }
 };
+
+// -----  Get Local Storage ----- //
+
+themeLight = JSON.parse(localStorage.getItem(storageKey));
+
+if (themeLight === true) {
+  theme.classList.add('is-light');
+}
 
 // -------------------------------------
 //   Events
