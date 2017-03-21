@@ -2,7 +2,7 @@
   "author": "Jordan Wade",
   "description": "Themeing editor example",
   "license": "ISC",
-  "name": "Editor - Prototype",
+  "name": "Editor-Prototype",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {},
