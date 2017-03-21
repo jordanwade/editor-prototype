@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor Theming Example</title>
+  <link rel="stylesheet" href="app.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono|Work+Sans" rel="stylesheet">
+</head>
+<body class="theme">
+
+<main class="panel">
+  <div class="panel-item theme-panel-item">  
+    <div class="tabs theme-tabs">
+      <a href="#" class="tab is-active">app.js</a>
+      <a href="#" class="tab">index.html</a>
+    <div class="tab-controls">
+      <span class="tab-icon-settings"></span>
+    </div>
+    </div>
+    <div class="editor theme-editor">
+      <div class="editor-item editor-item-gutter">
+        <span class="number">1</span>
+        <span class="number">2</span>
+        <span class="number">3</span>
+        <span class="number">4</span>
+        <span class="number">5</span>
+        <span class="number">6</span>
+      </div>
+      <div class="editor-item editor-item-content">
+        <pre class="sample-html">
+        </pre>
+<!--         <pre>
+          <span class="ce-keyword">var</span>
+          <span class="ce-var">thing</span>
+          <span class="ce-operator">=</span>
+          <span class="ce-number">42;</span>
+        </pre> -->
+      </div>
+    </div>
+    <div class="bar theme-bar">
+      <div class="flash theme-flash"></div>
+      <button class="btn theme-btn">Submit</button>
+    </div>
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

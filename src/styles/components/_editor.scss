@@ -1,0 +1,74 @@
+// *************************************
+//
+//   Editor
+//
+// *************************************
+
+.editor {
+  padding-bottom: rem(20px);
+  display: flex;
+}
+
+// -------------------------------------
+//   Item
+// -------------------------------------
+
+.editor-item {
+  display: flex;
+}
+
+// -------------------------------------
+//   Gutter
+// -------------------------------------
+
+.editor-item-gutter {
+  flex-direction: column;
+  color: #8c9aa5;
+  padding: rem(10px);
+}
+
+// -------------------------------------
+//   Content
+// -------------------------------------
+
+.editor-item-content {
+  flex-grow: 1;
+  flex-direction: column;
+  padding: rem(10px) 0; 
+}
+
+// ----- Synatax ----- //
+
+.ce-keyword {
+  color: #9af49c;
+}
+.ce-var {
+  color: #ffc700;
+}
+.ce-operator {
+  color: #fff;
+}
+.ce-number {
+  color: #ff5f8b;
+}
+
+.is-light {
+  .ce-keyword {
+    color: #25AB8E;
+  }
+  .ce-var {
+    color: #5702de;
+  }
+  .ce-operator {
+    color: $base-color;
+  }
+  .ce-number {
+    color: #fb0045;
+  }
+}
+// ----- Code ----- //
+
+pre {
+  display: flex;
+  margin: 0;
+}

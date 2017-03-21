@@ -1,0 +1,91 @@
+// *************************************
+//
+//   Theme
+//   -> User-specific editor theme
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .theme(is-light)
+//   / ...
+//
+// *************************************
+
+.theme-editor {
+  background-color: $theme-codeEditor-background;
+}
+
+// ----- Tabs ----- //
+
+.theme-tabs {
+  background-color: $theme-tabs-background;
+}
+
+// ----- Panel Item ----- //
+
+.theme-panel-item {
+  border: 1px solid $theme-panel-border-color;
+}
+
+// ----- Bar ----- //
+
+.theme-bar {
+  background-color: $theme-bar-background;
+  border-top: 1px solid $theme-bar-border-color;
+}
+
+// ----- Button ----- //
+
+.theme-btn {
+  border: solid 1px #25AB8E;
+}
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+.theme.is-light {
+
+  background: #d6e5f1;
+
+  // ----- Editor ----- //
+
+  .theme-editor {
+    background-color: $theme-codeEditor-background--light;
+  }
+
+  // ----- Tabs ----- //
+
+  .theme-tabs {
+    background-color: $theme-tabs-background--light;
+  }
+
+  // ----- Panel Item ----- //
+
+  .theme-panel-item {
+    border: 1px solid $theme-panel-border-color--light;
+  }
+
+  // ----- Bar ----- //
+
+  .theme-bar {
+    background-color: $theme-bar-background--light;
+    border-top-color: $theme-bar-border-color--light;
+  }
+
+  // ----- Button ----- //
+
+  .theme-btn {
+    border-color: transparent;
+    color: #fff;
+    background-color: $theme-btn-background--light;
+  }
+
+  .theme-flash {
+    color: #25AB8E;
+  }
+  .theme-icon *{
+    fill: #0054ef;
+  }
+}

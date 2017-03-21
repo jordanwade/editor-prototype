@@ -1,0 +1,26 @@
+// *************************************
+//
+//   Base
+//
+// *************************************
+
+html { 
+  font-size: $base-fontSize;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: $base-background;
+  color: $base-color;
+  font-size: 100%;
+  font-family: $base-fontFamily;
+  height: 100%;
+  line-height: $base-lineHeight;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}

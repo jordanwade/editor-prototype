@@ -1,0 +1,26 @@
+// *************************************
+//
+//   Panel
+//
+// *************************************
+
+.panel {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;  
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+// -------------------------------------
+//   Panel Item
+// -------------------------------------
+
+.panel-item {
+  min-width: rem(500px);
+  overflow: hidden;
+  border-radius: 5px;
+}

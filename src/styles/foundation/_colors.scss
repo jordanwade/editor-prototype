@@ -1,0 +1,35 @@
+// *************************************
+//
+//   Colors
+//
+// *************************************
+
+$base-fontFamily: 'Work Sans', Helvetica, Arial, sans-serif;
+$mono-fontFamily: 'PT Mono', monospace;
+$base-fontSize: 16px;
+$base-lineHeight: 1.5;
+$base-background: #fff;
+$base-color: #010101;
+
+// -------------------------------------
+//   Theme: Light
+// -------------------------------------
+
+$theme-tabs-background--light: #e8e8e8;
+$theme-panel-border-color--light: #dedede;
+$theme-codeEditor-background--light: #fff;
+$codeEditor-color--light: #010101;
+$theme-bar-background--light: #fbfbfb; 
+$theme-bar-border-color--light: #dedede;
+$theme-btn-background--light: #25AB8E;
+
+// -------------------------------------
+//   Default Theme
+// -------------------------------------
+
+$theme-tabs-background: #0e1f2b;
+$theme-panel-border-color: #dedede;
+$theme-codeEditor-background: #18354a;
+$theme-bar-background: #050c10;
+$theme-bar-border-color: transparent;
+$theme-btn-border-color: #25AB8E;

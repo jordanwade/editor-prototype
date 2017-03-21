@@ -1,0 +1,36 @@
+// *************************************
+//
+//   Tabs
+//
+// *************************************
+
+.tabs {
+  align-items: center;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.tab {
+  border: 2px solid transparent;
+  color: #8c9aa5;
+  font-family: $mono-fontFamily;
+  padding: rem(10px) rem(20px);
+}
+
+.tab.is-active {
+  border-bottom-color: #0054ef;
+  color: #0054ef;
+  font-weight: bold
+}
+
+.tab-controls {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tab-icon-settings {
+  padding: rem(10px) rem(20px);
+  cursor: pointer;
+  line-height: 0;
+}

@@ -1,0 +1,20 @@
+// *************************************
+//
+//   Button
+//
+// *************************************
+
+.btn {
+  font-family: $base-fontFamily;
+  background: transparent;
+  border-radius: 30px;
+  border: solid 1px #25AB8E;
+  color: #25AB8E;
+  padding: rem(10px) rem(20px);
+  font-size: rem($base-fontSize);
+  cursor: pointer
+}
+
+.btn:hover {
+  background-color: rgba(#25AB8E, 0.2);
+}

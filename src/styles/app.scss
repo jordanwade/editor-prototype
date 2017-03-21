@@ -1,0 +1,47 @@
+// *************************************
+//
+//   Editor Theme Example
+//   -> Manifest
+//
+// *************************************
+
+// -------------------------------------
+//   Helpers
+// -------------------------------------
+
+@function rem($size) {
+  $rem: $size / 16px;
+  @return #{$rem}rem;
+}
+
+// -------------------------------------
+//   Foundation
+// -------------------------------------
+
+@import 'foundation/colors';
+@import 'foundation/base';
+
+// -------------------------------------
+//   Components
+// -------------------------------------
+
+@import 'components/bar';
+@import 'components/button';
+@import 'components/editor';
+@import 'components/flash';
+@import 'components/panel';
+@import 'components/tabs';
+
+// -------------------------------------
+//   Theme
+// -------------------------------------
+
+@import 'theme/theme';
+
+// -------------------------------------
+//   Inbox
+// -------------------------------------
+
+.sample-html {
+  flex-direction: column;
+}
