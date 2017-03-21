@@ -15,9 +15,9 @@ const sampleHTML = document.querySelector('.sample-html');
 
 function toggleActive(e) {
   e.preventDefault();
-  const tabItems = Array.from(document.querySelectorAll('.tab'));
+  const tabItems = document.querySelectorAll('.tab');
 
-  tabItems.forEach((tab) => {
+  tabItems.forEach(tab => {
     tab.classList.remove('is-active');
   });
 
