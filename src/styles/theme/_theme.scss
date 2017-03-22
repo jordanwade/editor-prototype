@@ -41,6 +41,12 @@
   border: solid 1px #25AB8E;
 }
 
+// ----- Editor Content ----- //
+
+.theme-editor-content {
+  color: $theme-editor-content;
+}
+
 // -------------------------------------
 //   States
 // -------------------------------------
@@ -82,9 +88,20 @@
     background-color: $theme-btn-background--light;
   }
 
+  // ----- Editor Content ----- //
+
+  .theme-editor-content {
+    color: $theme-editor-content--light;
+  }
+
+  // ----- Flash ----- //
+
   .theme-flash {
     color: #25AB8E;
   }
+
+  // ----- Icon ----- //
+
   .theme-icon *{
     fill: #0054ef;
   }
