@@ -22,8 +22,8 @@
 // -------------------------------------
 
 .editor-item-gutter {
-  flex-direction: column;
   color: #8c9aa5;
+  flex-direction: column;
   padding: rem(10px);
 }
 
@@ -32,8 +32,8 @@
 // -------------------------------------
 
 .editor-item-content {
-  flex-grow: 1;
   flex-direction: column;
+  flex-grow: 1;
   padding: rem(10px) 0; 
 }
 
@@ -51,6 +51,8 @@
 .ce-number {
   color: #ff5f8b;
 }
+
+// Light Theme
 
 .is-light {
   .ce-keyword {

@@ -20,17 +20,17 @@
 .tab.is-active {
   border-bottom-color: #0054ef;
   color: #0054ef;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .tab-controls {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
   justify-content: flex-end;
 }
 
 .tab-icon-settings {
-  padding: rem(10px) rem(20px);
   cursor: pointer;
   line-height: 0;
+  padding: rem(10px) rem(20px);
 }
