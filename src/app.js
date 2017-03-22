@@ -84,7 +84,6 @@ const gearIcon = `<svg class="nc-icon glyph theme-icon" xmlns="http://www.w3.org
 
 gear.innerHTML = gearIcon;
 
-
 // -------------------------------------
 //   Sample HTML
 // -------------------------------------
